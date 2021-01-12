@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+
 
 }
 .container {
@@ -21,6 +21,10 @@
 div.left-header * {
         padding-left: 20px;
 
+}
+.main-article {
+    width: 50%;
+    margin: auto;
 }
 .main-heading{
     text-align: center;
@@ -45,4 +49,20 @@ figcaption{
 
 .header-figure{
     padding-bottom: 2%;
+}
+/* p {
+    display: block;
+} */
+
+.main-footer {
+    display: flex;
+}
+.footer-categories{
+    display: flex;
+    justify-content: center;
+}
+.post-pragraph {
+    padding-bottom: 2%;
+    width: 50%;
+    margin: auto;
 }
