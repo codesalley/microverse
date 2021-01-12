@@ -1,36 +1,58 @@
+@font-face {
+    font-family: chomsky;
+    src: url(./chomsky-font/Chomsky-8MOa2.otf);
+  }
+
 * {
     margin: 0;
 
 
 }
+
 .container {
     background-color: fff;
-    padding:  0 10% 0 10%;
+    /* padding: 0 10% 0 10%; */
 }
-.top-header{
+
+.top-header {
     background-color: lightgreen;
     display: flex;
     justify-content: space-between;
+    padding: 2px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+
+  
 }
 
 .left-header {
     display: flex;
     justify-content: space-evenly;
-   
-}
-div.left-header * {
-        padding-left: 20px;
 
 }
+
+div.left-header * {
+    padding-left: 20px;
+
+}
+
 .main-article {
     width: 50%;
     margin: auto;
 }
-.main-heading{
+
+.first {
+    font-family: 'chomsky', cursive;
+    font-size: 30px;
+}
+
+.main-heading {
     text-align: center;
     margin-bottom: 2%;
 }
-.header-text{
+
+.header-text {
     padding: 2%;
 }
 
@@ -39,30 +61,37 @@ img {
     height: auto;
     display: block;
     z-index: 5;
-    }
+}
 
-figcaption{
+figcaption {
     color: rgb(90, 90, 90);
     padding-top: 2%;
 
 }
 
-.header-figure{
+.header-figure {
     padding-bottom: 2%;
+    width: 80%;
+    margin: 0 auto;
 }
-/* p {
-    display: block;
-} */
 
 .main-footer {
     display: flex;
 }
-.footer-categories{
+
+.footer-categories {
     display: flex;
     justify-content: center;
 }
+
 .post-pragraph {
     padding-bottom: 2%;
     width: 50%;
     margin: auto;
+}
+.btn {
+    background-color: #567B95;
+   color: white;
+   border-radius: 5px;
+   height: 30px;
 }
