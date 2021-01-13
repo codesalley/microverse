@@ -1,97 +1,166 @@
 @font-face {
     font-family: chomsky;
-    src: url(./chomsky-font/Chomsky-8MOa2.otf);
-  }
+    src: url(./chomsky-font/misc/Chomsky-399c.woff);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 * {
     margin: 0;
-
-
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
     background-color: fff;
-    /* padding: 0 10% 0 10%; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.catergory {
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .top-header {
-    background-color: lightgreen;
+    background-color: honeydew;
     display: flex;
     justify-content: space-between;
-    padding: 2px;
+    padding: 5px 7.5% 0 7.5%;
     position: sticky;
     top: 0;
-    align-items: center;
-
-  
+    height: 40px;
 }
 
 .left-header {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 
 }
 
 div.left-header * {
     padding-left: 20px;
-
-}
-
-.main-article {
-    width: 50%;
-    margin: auto;
 }
 
 .first {
     font-family: 'chomsky', cursive;
-    font-size: 30px;
+    font-size: 22px;
+}
+
+.btn {
+    background-color: #567B95;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px 20px 5px 20px;
+    border: 0;
+    font-weight: normal;
+    letter-spacing: 2px;
 }
 
 .main-heading {
-    text-align: center;
-    margin-bottom: 2%;
+    padding-bottom: 40px;
 }
 
-.header-text {
-    padding: 2%;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    z-index: 5;
-}
-
-figcaption {
-    color: rgb(90, 90, 90);
-    padding-top: 2%;
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    margin: auto;
+    padding: 40px 0 40px 0;
+    flex-direction: column;
 
 }
 
-.header-figure {
-    padding-bottom: 2%;
-    width: 80%;
+.share-icons {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    width: 50%;
+    padding: 20px 0 20px 0;
+
+}
+
+.icon-item {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+div .icon-item:hover {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    border: 1px solid rgb(121, 118, 118);
+    background-color: white;
+    overflow: hidden;
+}
+
+div .icon-item {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: rgba(238, 237, 241, 0.815);
+    overflow: hidden;
+}
+.header-figure figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    align-items: center;
+    
+}
+figure img{
+    width: 70%;
+}
+figure figcaption {
+    margin: 0 15%;
+    color: rgba(0, 0, 0, 0.603);
+}
+.article {
+    margin: 1% 30%;
+}
+.article *{
+    padding-bottom: 10px;
+}
+.main-article *{
+    padding-bottom: 30px;
+}
+
+.second-article {
+    width: 1200px;
     margin: 0 auto;
+  
 }
 
 .main-footer {
     display: flex;
+    flex-direction: column;
 }
-
 .footer-categories {
     display: flex;
-    justify-content: center;
-}
+    justify-content: space-around;
 
-.post-pragraph {
-    padding-bottom: 2%;
-    width: 50%;
-    margin: auto;
 }
-.btn {
-    background-color: #567B95;
-   color: white;
-   border-radius: 5px;
-   height: 30px;
+ul {
+    list-style: none;
+    padding-left: 0;
+    text-decoration: none;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav-footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.footer-line {
+   border-color:rgba(192, 187, 187, 0.178);
+    padding: 0 40%;
+    margin: 0 auto;
 }
