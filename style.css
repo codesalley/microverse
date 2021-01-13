@@ -1,0 +1,226 @@
+@font-face {
+    font-family: chomsky;
+    src: url(./chomsky-font/misc/Chomsky-399c.woff);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    background-color: fff;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.catergory {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.top-header {
+    background-color: honeydew;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 7.5% 0 7.5%;
+    position: sticky;
+    top: 0;
+    height: 40px;
+}
+.header-section h1 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.left-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+div.left-header * {
+    padding-left: 20px;
+}
+
+.first {
+    font-family: 'chomsky', cursive;
+    font-size: 22px;
+}
+
+.btn {
+    background-color: #567B95;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px 20px 5px 20px;
+    border: 0;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.main-heading {
+    padding-bottom: 40px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    margin: auto;
+    padding: 40px 0 40px 0;
+    flex-direction: column;
+
+}
+
+.share-icons {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    width: 50%;
+    padding: 20px 0 20px 0;
+
+}
+
+.icon-item {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+div .icon-item:hover {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    border: 1px solid rgb(121, 118, 118);
+    background-color: white;
+    overflow: hidden;
+}
+
+div .icon-item {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: rgba(238, 237, 241, 0.815);
+    overflow: hidden;
+}
+.header-figure figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    align-items: center;
+
+}
+figure img{
+    width: 60%;
+    max-width: 900px;
+}
+figure figcaption {
+    align-self: flex-start;
+    margin-left: 27%;
+    color: rgba(0, 0, 0, 0.603);
+    font-size: 13px;
+    padding-bottom: 30px;
+   
+}
+time {
+    font-weight: 400;
+    font-size: 14px;
+}
+.article {
+    margin: 1% 35%;
+}
+.article *{
+    padding-bottom: 10px;
+}
+.main-article *{
+    padding-bottom: 30px;
+}
+
+.second-article {
+    width:945px;
+    margin: 0 auto;
+  
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: column;
+}
+.footer-categories {
+    display: flex;
+    justify-content: space-around;
+
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    text-decoration: none;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav-footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+hr {
+    border-color:rgba(192, 187, 187, 0.178);
+
+
+}
+.footer-line {
+    padding: 0 40%;
+    margin: 0 auto;
+
+}
+.suggestion-article {
+display: flex;
+}
+.suggestion-article p {
+    font-size: 14px;
+}
+.suggestion-article button {
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+   
+}
+.suggestion-article span {
+    font-size: 15px;
+    font-style: italic;
+    word-spacing: 2px;
+}
+.youtube-video-info {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    opacity: 0.8;
+    word-spacing: 2px;
+}
+.youtube-video-info span {
+    font-size: 13px;
+    opacity: 0.5;
+}
+#mit {
+    font-weight: bold;
+    
+}
+.mid-figure {
+    width: 150vh;
+    left: 200px;
+}
+.main-footer {
+    padding: 0 10% 0 10%;
+
+}
