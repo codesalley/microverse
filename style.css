@@ -8,6 +8,7 @@
 * {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 }
 
 .container {
@@ -30,6 +31,10 @@
     position: sticky;
     top: 0;
     height: 40px;
+}
+.header-section h1 {
+    font-size: 30px;
+    font-style: italic;
 }
 
 .left-header {
@@ -57,6 +62,7 @@ div.left-header * {
     border: 0;
     font-weight: normal;
     letter-spacing: 2px;
+    font-size: 13px;
 }
 
 .main-heading {
@@ -110,17 +116,26 @@ div .icon-item {
     justify-content: start;
     
     align-items: center;
-    
+
 }
 figure img{
-    width: 70%;
+    width: 60%;
+    max-width: 900px;
 }
 figure figcaption {
-    margin: 0 15%;
+    align-self: flex-start;
+    margin-left: 27%;
     color: rgba(0, 0, 0, 0.603);
+    font-size: 13px;
+    padding-bottom: 30px;
+   
+}
+time {
+    font-weight: 400;
+    font-size: 14px;
 }
 .article {
-    margin: 1% 30%;
+    margin: 1% 35%;
 }
 .article *{
     padding-bottom: 10px;
@@ -130,7 +145,7 @@ figure figcaption {
 }
 
 .second-article {
-    width: 1200px;
+    width:945px;
     margin: 0 auto;
   
 }
@@ -159,8 +174,53 @@ a {
     justify-content: center;
     padding: 20px;
 }
+hr {
+    border-color:rgba(192, 187, 187, 0.178);
+
+
+}
 .footer-line {
-   border-color:rgba(192, 187, 187, 0.178);
     padding: 0 40%;
     margin: 0 auto;
+
+}
+.suggestion-article {
+display: flex;
+}
+.suggestion-article p {
+    font-size: 14px;
+}
+.suggestion-article button {
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+   
+}
+.suggestion-article span {
+    font-size: 15px;
+    font-style: italic;
+    word-spacing: 2px;
+}
+.youtube-video-info {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    opacity: 0.8;
+    word-spacing: 2px;
+}
+.youtube-video-info span {
+    font-size: 13px;
+    opacity: 0.5;
+}
+#mit {
+    font-weight: bold;
+    
+}
+.mid-figure {
+    width: 150vh;
+    left: 200px;
+}
+.main-footer {
+    padding: 0 10% 0 10%;
+
 }
